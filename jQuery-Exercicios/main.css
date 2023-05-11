@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #fff
+}
+
+#centralizar {
+    background-color: #7dbc92;
+    text-align: center;
+    width: 25% 
+}
+
+input, button {
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+
+button {
+    background-color: #a6ebbd;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+li {
+    text-decoration: line-through;
+}
