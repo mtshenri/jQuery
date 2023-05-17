@@ -20,6 +20,10 @@ input, button {
     margin: 0 0 5px 0;
 }
 
+.concluido {
+    text-decoration: line-through;
+}
+
 button {
     background-color: #a6ebbd;
     border: none;
@@ -27,8 +31,4 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     color: #000;
-}
-
-li {
-    text-decoration: line-through;
 }

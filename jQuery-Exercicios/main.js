@@ -8,4 +8,8 @@ $(document).ready(function() {
         $(tarefa).appendTo('ul');
         $('#inserir-tarefa').val('');
     })
+
+    $('ul').on('click', 'li', function() {
+        $(this).toggleClass('concluido');
+    })
 })
